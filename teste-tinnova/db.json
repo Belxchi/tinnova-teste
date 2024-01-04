@@ -1,0 +1,397 @@
+{
+  "produtores": [
+    {
+      "cpfCnpj": "00123456789",
+      "nome": "Produtor 1",
+      "nomeFazenda": "Fazenda Legal",
+      "cidade": "Cidade Chata",
+      "estado": "AC",
+      "areaTotal": "100",
+      "areaAgricultavel": "50",
+      "areaVegetacao": "50",
+      "cultura": [
+        "soja",
+        "milho"
+      ],
+      "id": 1
+    },
+    {
+      "cpfCnpj": "00123456790",
+      "nome": "Produtor 2",
+      "nomeFazenda": "Fazenda 2",
+      "cidade": "Cidade 2",
+      "estado": "SP",
+      "areaTotal": 110,
+      "areaAgricultavel": 55,
+      "areaVegetacao": 55,
+      "cultura": [
+        "soja",
+        "milho"
+      ],
+      "id": 2
+    },
+    {
+      "id": 3,
+      "cpfCnpj": "00123456791",
+      "nome": "Produtor 3",
+      "nomeFazenda": "Fazenda 3",
+      "cidade": "Cidade 3",
+      "estado": "SP",
+      "areaTotal": 120,
+      "areaAgricultavel": 60,
+      "areaVegetacao": 60,
+      "cultura": "soja"
+    },
+    {
+      "id": 4,
+      "cpfCnpj": "00123456792",
+      "nome": "Produtor 4",
+      "nomeFazenda": "Fazenda 4",
+      "cidade": "Cidade 4",
+      "estado": "SP",
+      "areaTotal": 130,
+      "areaAgricultavel": 65,
+      "areaVegetacao": 65,
+      "cultura": "milho"
+    },
+    {
+      "id": 5,
+      "cpfCnpj": "00123456793",
+      "nome": "Produtor 5",
+      "nomeFazenda": "Fazenda 5",
+      "cidade": "Cidade 5",
+      "estado": "SP",
+      "areaTotal": 140,
+      "areaAgricultavel": 70,
+      "areaVegetacao": 70,
+      "cultura": "soja"
+    },
+    {
+      "id": 6,
+      "cpfCnpj": "00123456794",
+      "nome": "Produtor 6",
+      "nomeFazenda": "Fazenda 6",
+      "cidade": "Cidade 6",
+      "estado": "SP",
+      "areaTotal": 150,
+      "areaAgricultavel": 75,
+      "areaVegetacao": 75,
+      "cultura": "milho"
+    },
+    {
+      "id": 7,
+      "cpfCnpj": "00123456795",
+      "nome": "Produtor 7",
+      "nomeFazenda": "Fazenda 7",
+      "cidade": "Cidade 7",
+      "estado": "SP",
+      "areaTotal": 160,
+      "areaAgricultavel": 80,
+      "areaVegetacao": 80,
+      "cultura": "soja"
+    },
+    {
+      "id": 8,
+      "cpfCnpj": "00123456796",
+      "nome": "Produtor 8",
+      "nomeFazenda": "Fazenda 8",
+      "cidade": "Cidade 8",
+      "estado": "SP",
+      "areaTotal": 170,
+      "areaAgricultavel": 85,
+      "areaVegetacao": 85,
+      "cultura": "milho"
+    },
+    {
+      "id": 9,
+      "cpfCnpj": "00123456797",
+      "nome": "Produtor 9",
+      "nomeFazenda": "Fazenda 9",
+      "cidade": "Cidade 9",
+      "estado": "SP",
+      "areaTotal": 180,
+      "areaAgricultavel": 90,
+      "areaVegetacao": 90,
+      "cultura": "soja"
+    },
+    {
+      "id": 10,
+      "cpfCnpj": "00123456798",
+      "nome": "Produtor 10",
+      "nomeFazenda": "Fazenda 10",
+      "cidade": "Cidade 10",
+      "estado": "SP",
+      "areaTotal": 190,
+      "areaAgricultavel": 95,
+      "areaVegetacao": 95,
+      "cultura": "milho"
+    },
+    {
+      "id": 11,
+      "cpfCnpj": "00123456799",
+      "nome": "Produtor 11",
+      "nomeFazenda": "Fazenda 11",
+      "cidade": "Cidade 11",
+      "estado": "SP",
+      "areaTotal": 200,
+      "areaAgricultavel": 100,
+      "areaVegetacao": 100,
+      "cultura": "soja"
+    },
+    {
+      "id": 12,
+      "cpfCnpj": "00123456800",
+      "nome": "Produtor 12",
+      "nomeFazenda": "Fazenda 12",
+      "cidade": "Cidade 12",
+      "estado": "SP",
+      "areaTotal": 210,
+      "areaAgricultavel": 105,
+      "areaVegetacao": 105,
+      "cultura": "milho"
+    },
+    {
+      "id": 13,
+      "cpfCnpj": "00123456801",
+      "nome": "Produtor 13",
+      "nomeFazenda": "Fazenda 13",
+      "cidade": "Cidade 13",
+      "estado": "SP",
+      "areaTotal": 220,
+      "areaAgricultavel": 110,
+      "areaVegetacao": 110,
+      "cultura": "soja"
+    },
+    {
+      "id": 14,
+      "cpfCnpj": "00123456802",
+      "nome": "Produtor 14",
+      "nomeFazenda": "Fazenda 14",
+      "cidade": "Cidade 14",
+      "estado": "SP",
+      "areaTotal": 230,
+      "areaAgricultavel": 115,
+      "areaVegetacao": 115,
+      "cultura": "milho"
+    },
+    {
+      "id": 15,
+      "cpfCnpj": "00123456803",
+      "nome": "Produtor 15",
+      "nomeFazenda": "Fazenda 15",
+      "cidade": "Cidade 15",
+      "estado": "SP",
+      "areaTotal": 240,
+      "areaAgricultavel": 120,
+      "areaVegetacao": 120,
+      "cultura": "soja"
+    },
+    {
+      "id": 16,
+      "cpfCnpj": "00123456804",
+      "nome": "Produtor 16",
+      "nomeFazenda": "Fazenda 16",
+      "cidade": "Cidade 16",
+      "estado": "SP",
+      "areaTotal": 250,
+      "areaAgricultavel": 125,
+      "areaVegetacao": 125,
+      "cultura": "milho"
+    },
+    {
+      "id": 17,
+      "cpfCnpj": "00123456805",
+      "nome": "Produtor 17",
+      "nomeFazenda": "Fazenda 17",
+      "cidade": "Cidade 17",
+      "estado": "SP",
+      "areaTotal": 260,
+      "areaAgricultavel": 130,
+      "areaVegetacao": 130,
+      "cultura": "soja"
+    },
+    {
+      "id": 18,
+      "cpfCnpj": "00123456806",
+      "nome": "Produtor 18",
+      "nomeFazenda": "Fazenda 18",
+      "cidade": "Cidade 18",
+      "estado": "SP",
+      "areaTotal": 270,
+      "areaAgricultavel": 135,
+      "areaVegetacao": 135,
+      "cultura": "milho"
+    },
+    {
+      "id": 19,
+      "cpfCnpj": "00123456807",
+      "nome": "Produtor 19",
+      "nomeFazenda": "Fazenda 19",
+      "cidade": "Cidade 19",
+      "estado": "SP",
+      "areaTotal": 280,
+      "areaAgricultavel": 140,
+      "areaVegetacao": 140,
+      "cultura": "soja"
+    },
+    {
+      "cpfCnpj": "123123",
+      "nome": "aasdas",
+      "nomeFazenda": "dasda",
+      "cidade": "sdasd",
+      "estado": "asdasd",
+      "areaTotal": "asdas",
+      "areaAgricultavel": "dasdasdas",
+      "areaVegetacao": "dasdas",
+      "cultura": [
+        "soja",
+        "milho"
+      ],
+      "id": 21
+    },
+    {
+      "cpfCnpj": "123123123",
+      "nome": "asdasdas",
+      "nomeFazenda": "dasdas",
+      "cidade": "dasdas",
+      "estado": "dasdas",
+      "areaTotal": "dasdasd",
+      "areaAgricultavel": "asdasdas",
+      "areaVegetacao": "dasdasd",
+      "cultura": [
+        "soja",
+        "milho"
+      ],
+      "id": 22
+    },
+    {
+      "cpfCnpj": "123123123",
+      "nome": "asdasdas",
+      "nomeFazenda": "dasdas",
+      "cidade": "dasdas",
+      "estado": "dasdas",
+      "areaTotal": "dasdasd",
+      "areaAgricultavel": "asdasdas",
+      "areaVegetacao": "dasdasd",
+      "cultura": [
+        "soja",
+        "milho"
+      ],
+      "id": 23
+    },
+    {
+      "cpfCnpj": "111111",
+      "nome": "asdas",
+      "nomeFazenda": "das",
+      "cidade": "dasdas",
+      "estado": "dasd",
+      "areaTotal": "asdas",
+      "areaAgricultavel": "dasd",
+      "areaVegetacao": "asdad",
+      "cultura": [
+        "milho",
+        "algodao"
+      ],
+      "id": 24
+    },
+    {
+      "cpfCnpj": "333333",
+      "nome": "3333333333333333",
+      "nomeFazenda": "333333333333333",
+      "cidade": "3333333333333",
+      "estado": "3333333333333",
+      "areaTotal": "333",
+      "areaAgricultavel": "333",
+      "areaVegetacao": "333",
+      "cultura": [
+        "milho",
+        "algodao"
+      ],
+      "id": 25
+    },
+    {
+      "cpfCnpj": "123123123",
+      "nome": "asdasda",
+      "nomeFazenda": "sdasd",
+      "cidade": "asdas",
+      "estado": "dasdasd",
+      "areaTotal": "20",
+      "areaAgricultavel": "10",
+      "areaVegetacao": "10",
+      "cultura": [
+        "algodao",
+        "milho"
+      ],
+      "id": 26
+    },
+    {
+      "cpfCnpj": "2992929292",
+      "nome": "HEHEHEHE",
+      "nomeFazenda": "Fazenda",
+      "cidade": "Cidade",
+      "estado": "SP",
+      "areaTotal": "100",
+      "areaAgricultavel": "50",
+      "areaVegetacao": "50",
+      "cultura": [
+        "soja",
+        "milho"
+      ],
+      "id": 27
+    }
+  ],
+  "dashboard": {
+    "totalFazendas": 5,
+    "totalHectares": 600,
+    "fazendasPorEstado": [
+      {
+        "nome": "SP",
+        "valor": 3
+      },
+      {
+        "nome": "RJ",
+        "valor": 2
+      },
+      {
+        "nome": "MG",
+        "valor": 4
+      },
+      {
+        "nome": "BH",
+        "valor": 1
+      }
+    ],
+    "fazendasPorCultura": [
+      {
+        "nome": "Soja",
+        "valor": 3
+      },
+      {
+        "nome": "Milho",
+        "valor": 3
+      },
+      {
+        "nome": "Café",
+        "valor": 3
+      },
+      {
+        "nome": "Cana de Açucar",
+        "valor": 3
+      },
+      {
+        "nome": "Algodão",
+        "valor": 3
+      }
+    ],
+    "usoSolo": [
+      {
+        "nome": "Agricultavel",
+        "valor": 100
+      },
+      {
+        "nome": "Vegetação",
+        "valor": 200
+      }
+    ]
+  }
+}
