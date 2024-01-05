@@ -127,6 +127,23 @@ const ProdutorForm = ({ onEditarProdutor, onReset }) => {
     setId(0);
   };
 
+  function aplicarMascaraCpfCnpj(valor) {
+    valor = valor.replace(/\D/g, "");
+  
+    if (valor.length <= 11) { 
+      valor = valor.replace(/(\d{3})(\d)/, "$1.$2");
+      valor = valor.replace(/(\d{3})(\d)/, "$1.$2");
+      valor = valor.replace(/(\d{3})(\d{1,2})$/, "$1-$2");
+    } else { 
+      valor = valor.replace(/^(\d{2})(\d)/, "$1.$2");
+      valor = valor.replace(/^(\d{2})\.(\d{3})(\d)/, "$1.$2.$3");
+      valor = valor.replace(/\.(\d{3})(\d)/, ".$1/$2");
+      valor = valor.replace(/(\d{4})(\d)/, "$1-$2");
+    }
+  
+    return valor;
+  }
+
   return (
     <div className="flex flex-col">
       <h1 className="font-bold text-xl mb-4 text-black">
@@ -144,26 +161,33 @@ const ProdutorForm = ({ onEditarProdutor, onReset }) => {
           icon={IdentificationIcon}
           placeholder="CPF ou CNPJ"
           value={cpfCnpj}
-          onChange={(e) => setCpfCnpj(e.target.value)}
           onBlur={(e) => validarCpfOuCnpj(e.target.value)}
-        />
+          onChange={(e) => {
+            const valorMascarado = aplicarMascaraCpfCnpj(e.target.value);
+            setCpfCnpj(valorMascarado);
+          }}
+          maxLength={18}
+        />  
         <TextInput
           icon={UserIcon}
           placeholder="Nome do produtor"
           value={nome}
           onChange={(e) => setNome(e.target.value)}
+          required
         />
         <TextInput
           icon={HomeIcon}
           placeholder="Nome da fazenda"
           value={nomeFazenda}
           onChange={(e) => setNomeFazenda(e.target.value)}
+          required
         />
         <TextInput
           icon={OfficeBuildingIcon}
           placeholder="Cidade"
           value={cidade}
           onChange={(e) => setCidade(e.target.value)}
+          required
         />
         <Select
           value={estado}
@@ -178,22 +202,28 @@ const ProdutorForm = ({ onEditarProdutor, onReset }) => {
         <TextInput
           icon={CalculatorIcon}
           placeholder="Área total em hectares da fazenda"
+          type="number"
           value={areaTotal}
           onChange={(e) => setAreaTotal(e.target.value)}
+          required
         />
         <TextInput
           icon={CalculatorIcon}
           placeholder="Área agricultável em hectares"
+          type="number"
           value={areaAgricultavel}
           onChange={(e) => setAreaAgricultavel(e.target.value)}
+          required
         />
         <TextInput
           icon={CalculatorIcon}
           placeholder="Área de vegetação em hectares"
+          type="number"
           value={areaVegetacao}
           onChange={(e) => setAreaVegetacao(e.target.value)}
+          required
         />
-        <MultiSelect value={cultura} onValueChange={setCultura} icon={ViewListIcon}>
+        <MultiSelect value={cultura} onValueChange={setCultura} icon={ViewListIcon} required>
           <MultiSelectItem value="soja">Soja</MultiSelectItem>
           <MultiSelectItem value="milho">Milho</MultiSelectItem>
           <MultiSelectItem value="algodao">Algodão</MultiSelectItem>
