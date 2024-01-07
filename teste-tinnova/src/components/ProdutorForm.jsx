@@ -196,7 +196,7 @@ const ProdutorForm = ({ onEditarProdutor, onReset }) => {
           icon={MapIcon}
         >
           {estados.map((estad) => (
-            <SelectItem value={estad.sigla}>{estad.nome}</SelectItem>
+            <SelectItem key={estad.sigla} value={estad.sigla}>{estad.nome}</SelectItem>
           ))}
         </Select>
         <TextInput

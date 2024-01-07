@@ -55,7 +55,7 @@ const ProdutorTable = ({ onEditarProdutor }) => {
                 <TableCell>{produtor.areaTotal}</TableCell>
                 <TableCell>{produtor.areaAgricultavel}</TableCell>
                 <TableCell>{produtor.areaVegetacao}</TableCell>
-                <TableCell>{produtor.cultura.join(', ')}</TableCell>
+                <TableCell>{typeof(produtor.cultura) === 'object' ? produtor.cultura.join(', ') : produtor.cultura}</TableCell>
                 <TableCell className="flex gap-1">
                   <Button
                     icon={PencilIcon}
